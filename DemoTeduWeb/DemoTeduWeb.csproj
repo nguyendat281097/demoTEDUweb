@@ -14,4 +14,13 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoTeduWeb.Application\DemoTeduWeb.Application.csproj" />
+    <ProjectReference Include="..\DemoTeduWeb.Data.EF\DemoTeduWeb.Data.EF.csproj" />
+    <ProjectReference Include="..\DemoTeduWeb.Data\DemoTeduWeb.Data.csproj" />
+    <ProjectReference Include="..\DemoTeduWeb.Infrastructure\DemoTeduWeb.Infrastructure.csproj" />
+    <ProjectReference Include="..\DemoTeduWeb.Utilities\DemoTeduWeb.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
